@@ -7,82 +7,82 @@ Section 3 :
 Create a new test project
 
 
-Open the automation tool (Testim, Mabl, or Katalon).
-
-
-Create a new test case and name it Homepage to Contact Form Flow.
+  Open the automation tool (Testim, Mabl, or Katalon).
+  
+  
+  Create a new test case and name it Homepage to Contact Form Flow.
 
 
 Record the navigation steps
 
 
-Start the recorder within the tool.
-
-
-Open the website homepage.
-
-
-Click on the “Work” link or button to move to the Work page.
-
-
-From the Work page, click on the “Contact” option to open the contact form.
+  Start the recorder within the tool.
+  
+  
+  Open the website homepage.
+  
+  
+  Click on the “Work” link or button to move to the Work page.
+  
+  
+  From the Work page, click on the “Contact” option to open the contact form.
 
 
 Add validations after navigation
 
 
-Verify that the Work page has loaded correctly (e.g., check for a heading or URL containing /work).
-
-
-Verify that the Contact form is displayed (form fields such as Name, Email, and Message are visible).
+  Verify that the Work page has loaded correctly (e.g., check for a heading or URL containing /work).
+  
+  
+  Verify that the Contact form is displayed (form fields such as Name, Email, and Message are visible).
 
 
 Fill out the Contact form
 
 
-Enter sample test data into the form fields, such as:
-
-
-Name: Test User
-
-
-Email: test@example.com
-
-
-Message: This is a test message
+  Enter sample test data into the form fields, such as:
+  
+  
+    Name: Test User
+    
+    
+    Email: test@example.com
+    
+    
+    Message: This is a test message
 
 
 Submit the form
 
 
-Record the click on the Submit button.
-
-
-Add a validation step to confirm that a success message (e.g., “Thank you for contacting us”) appears, or that the form submission response is successful.
+  Record the click on the Submit button.
+  
+  
+  Add a validation step to confirm that a success message (e.g., “Thank you for contacting us”) appears, or that the form submission response is successful.
 
 
 Stabilize the test flow
 
 
-Review the automatically recorded locators and replace weak selectors with stable attributes (like IDs or data-test attributes).
-
-
-Add smart waits so the tool waits until elements are visible or clickable, reducing flakiness.
+  Review the automatically recorded locators and replace weak selectors with stable attributes (like IDs or data-test attributes).
+  
+  
+  Add smart waits so the tool waits until elements are visible or clickable, reducing flakiness.
 
 
 Save and execute the test
 
 
-Save the test case.
-
-
-Run it within the tool to confirm the complete flow works correctly.
+  Save the test case.
+  
+  
+  Run it within the tool to confirm the complete flow works correctly.
 
 
 Optional enhancements
 
 
-Make the form data parameterized (use different names and emails for multiple runs).
+  Make the form data parameterized (use different names and emails for multiple runs).
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
